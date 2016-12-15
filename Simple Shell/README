@@ -1,0 +1,24 @@
+sish: simple shell
+
+Synopsis:
+sish [-x] [-c command]
+
+We used Trello for organizing our simple shell project into boards 
+for better colloboration and listed the feature to be implemented.
+
+Shell Buildins
+- cd
+- echo
+- exit
+- Ignore CTRL + C (SIGINT)
+
+Pipeline
+- It supports multiple pipeline.
+
+Redirection
+- It supports I/O redirection operators.
+
+Testing
+- We tested examples from manual page.
+- If a command is terminated by ampersand(&), shell executes the command asynchronously.
+
